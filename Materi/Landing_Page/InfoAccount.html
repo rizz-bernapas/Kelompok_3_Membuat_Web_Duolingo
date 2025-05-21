@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Information</title>
+    <link rel="stylesheet" href="../Landing_Page/InfoAccount.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+  </head>
+  <body onload="myFunction()">
+    <div class="container">
+      <div class="row align-items-center py-3 position-absolute top-50 start-50 translate-middle">
+        <div id="loading"></div>
+      </div>
+    </div>
+    <div style="display:none;" id="myDiv">
+       <div class="background"></div>
+
+    <!-- Bagian NAV-BAR -->
+
+    <nav class="navbar">
+      <img class="navbar-logo" src="../Assests/Pic/Duolingo_Assets/7564363_duolingo_logo_brand_icon.svg" />
+    </nav>
+    <button class="navbar-burger" onclick="toggleMenu()"></button>
+    <nav class="menu">
+      <a href="../Landing_Page/Home.html" style="animation-delay: 0.1s">Home</a>
+      <a href="../Landing_Page/About.html" style="animation-delay: 0.2s">About</a>
+      <a href="../Landing_Page/Leaderboards.html" style="animation-delay: 0.3s">Leaderboards</a>
+      <a href="../Landing_Page/InfoAccount.html" style="animation-delay: 0.4s">Profile</a>
+      <a href="../Login/Login.html" style="animation-delay: 0.5s">Log Out</a>
+    </nav>
+
+    <!-- Bagian Isi Content - SECTION -->
+
+    <div class="container">
+        <div class="account-container">
+            <aside class="sidebar">
+                <div class="profile-card">
+                    <img src="../Assests/Pic/PP.png" alt="Foto Profil">
+                    <h3>Lily</h3>
+                    <p>Joined 4 April 2021</p>
+                </div>
+
+<section id="jurusan" class="jurusan" style="margin-top: 20%;">
+
+    <div class="container" data-aos="fade-up">
+
+      <ul class="nav nav-tabs row gy-4 d-flex">
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+            <img
+          class="Statistics"
+          src="../Assests/Pic/Statistics.svg"
+          alt=""
+          style="width: 50px; height: 50px; background-size: cover"
+        />
+            <h4>Statistics</h4>
+          </a>
+        </li><!-- End Tab 1 Nav -->
+
+        <li class="nav-item col-6 col-md-4 col-lg-2">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+            <img
+            class="Achievements"
+            src="../Assests/Pic/Achievements.svg"
+            alt=""
+            style="width: 50px; height: 50px; background-size: cover"
+          />
+            <h4>Achievements</h4>
+          </a>
+        </li>
+<!-- End  -->
+
+      </ul>
+
+      <div class="tab-content">
+
+        <div class="tab-pane fade active show" id="features-tab-1">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+              <h2>Statistics</h2>
+              <div class="stats-card">
+                
+                <div class="stat-row">
+                    <div class="stat-label">Day streak</div>
+                    <div class="stat-value">7</div>
+                </div>
+                
+                <div class="stat-row">
+                    <div class="stat-label">Total XP</div>
+                    <div class="stat-value">2080</div>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <div class="stat-row">
+                    <div class="stat-label">Gold</div>
+                    <div class="stat-value gold-value">1</div>
+                </div>
+                
+                <div class="stat-row">
+                    <div class="stat-label">Current league</div>
+                    <div class="stat-value gold-value">Gold</div>
+                </div>
+                
+                <div class="stat-row">
+                    <div class="stat-label">Top 3 finishes</div>
+                    <div class="stat-value">-</div>
+                </div>
+            </div><!-- End Tab Content 1 -->
+
+        <div class="tab-pane fade" id="features-tab-2">
+          <div class="row gy-4">
+            <div class="col-lg-8 order-2 order-lg-1">
+              <h3>Bahasa Jepang</h3>
+    <!-- HALAMAN FOOTER -->
+     <div class="background">
+      <footer>
+        <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="100%"
+            height="100%"
+            viewBox="0 0 1600 900"
+          >
+            <defs>
+              <path
+                id="wave"
+                fill="rgba(105, 27, 252, 0.6)"
+                d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+        s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"
+              />
+            </defs>
+            <g>
+              <use xlink:href="#wave" opacity=".4">
+                <animateTransform
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="8s"
+                  calcMode="spline"
+                  values="270 230; -334 180; 270 230"
+                  keyTimes="0; .5; 1"
+                  keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                  repeatCount="indefinite"
+                />
+              </use>
+              <use xlink:href="#wave" opacity=".6">
+                <animateTransform
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="6s"
+                  calcMode="spline"
+                  values="-270 230;243 220;-270 230"
+                  keyTimes="0; .6; 1"
+                  keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                  repeatCount="indefinite"
+                />
+              </use>
+              <use xlink:href="#wave" opacty=".9">
+                <animateTransform
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="4s"
+                  calcMode="spline"
+                  values="0 230;-140 200;0 230"
+                  keyTimes="0; .4; 1"
+                  keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                  repeatCount="indefinite"
+                />
+              </use>
+            </g>
+          </svg>
+          
+         
+      </footer>
+    
+    </div>
+   
+
+    <!--BATAS FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Landing_Page/Home.js"></script>
+  </body>
+</html>
